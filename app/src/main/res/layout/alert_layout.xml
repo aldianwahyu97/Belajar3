@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Yakin Ingin Kembali?"
+                android:textStyle="bold"
+                android:textSize="40dp"
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                >
+
+                <Button
+                    android:id="@+id/no"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="NO"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    android:background="@drawable/no"
+                    android:textColor="#FFFF"
+                    />
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="YA"
+                   android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/yes"
+                    android:textColor="#FFFF"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

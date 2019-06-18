@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:layout_toRightOf="@id/gambar1"
+            android:layout_centerVertical="true"
+            android:paddingBottom="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/isi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isi Konten"
+            android:layout_toRightOf="@id/gambar1"
+            android:layout_centerVertical="true"
+            android:paddingTop="20dp"
+            />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            >
+            <ImageView
+                android:id="@+id/gambar2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:id="@+id/judul1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Judul"
+                android:layout_toRightOf="@id/gambar2"
+                android:layout_centerVertical="true"
+                android:paddingBottom="20dp"
+                />
+
+            <TextView
+                android:id="@+id/isi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isi Konten"
+                android:layout_toRightOf="@id/gambar2"
+                android:layout_centerVertical="true"
+                android:paddingTop="20dp"
+
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/pindah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pindah"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
