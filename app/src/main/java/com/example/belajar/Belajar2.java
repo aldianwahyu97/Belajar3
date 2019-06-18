@@ -12,7 +12,7 @@ public class Belajar2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_belajar2);
-        getSupportActionBar().setTitle("Pindah");
+        getSupportActionBar().setTitle("Pindah 2");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
